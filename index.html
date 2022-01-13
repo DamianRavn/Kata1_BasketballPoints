@@ -1,0 +1,35 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>A Basic HTML5 Template</title>
+  <meta name="description" content="A simple HTML5 Template for new projects.">
+  <meta name="author" content="SitePoint">
+
+</head>
+
+<body>
+    <h1>Basketball Points:</h1>
+    <div class="content">
+        <form action="javascript:displayPoints();">
+            <label for="twoPoint">Amount of two points:</label><br>
+            <input type="text" id="twoPoint" placeholder="0"><br><br>
+
+            <label for="threePoint">Amount of three points:</label><br>
+            <input type="text" id="threePoint" placeholder="0"><br>
+            <br>
+            <input type="submit" value="Submit">
+            <br><br>
+            <div class="result">
+                Result: 0
+            </div>
+        </form>
+    </div>
+
+
+  <script src="BasketballLogic.js"></script>
+</body>
+</html>
